@@ -1,0 +1,29 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "fooddelivery-915cf",
+          "appId": "1:76458706086:android:7cbf29e9445a4f9c03e067",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "fooddelivery-915cf",
+          "configurations": {
+            "android": "1:76458706086:android:7cbf29e9445a4f9c03e067",
+            "ios": "1:76458706086:ios:8454098ba0edbc8f03e067",
+            "macos": "1:76458706086:ios:8454098ba0edbc8f03e067",
+            "web": "1:76458706086:web:bf3daca6162b5a1703e067",
+            "windows": "1:76458706086:web:fcd3aa2b27b4d38403e067"
+          }
+        }
+      }
+    }
+  },
+  "firestore": {
+    "rules": "firestore.rules",
+    "indexes": "firestore.indexes.json"
+  }
+}
